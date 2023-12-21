@@ -9,7 +9,7 @@ import ShopBanner from "../../organisms/shopBanner/shopBanner"
 const componentId = `p-home-main`
 const mapClass = `m-map`
 
-const MainHome = props => {
+const MainHome = ({ buildings }) => {
   return (
     <StyledHomeMain className={`${componentId}`}>
       <Container>
@@ -20,7 +20,7 @@ const MainHome = props => {
         </Row>
         <Row>
           <Col xs={4} sm={8} md={10} lg={10} xl={10} offset={{ sm: 0, md: 1, lg: 1, xl: 1 }}>
-            <MapContainer />
+            <MapContainer buildings={buildings} />
           </Col>
         </Row>
         <Row>

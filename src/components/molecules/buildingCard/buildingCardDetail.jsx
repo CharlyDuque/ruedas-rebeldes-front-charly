@@ -50,7 +50,7 @@ const BuildingCardDetail = ({ className, statusText, description, contractor, am
         </DescItem>
         <DescItem>
           <span>{`Importe a pagar:`}</span>
-          <p>${amount}</p>
+          <p>{amount}</p>
         </DescItem>
       </DetailWrapper>
       <TextButton className={`${componentId}-more-button-dk`} btnColor={detailPinColor}>

@@ -32,9 +32,13 @@ const BuildingCardHeader = ({ className, status, srcImg }) => {
   const [imageImported, setimageImported] = useState(null)
 
   const loadImage = userid => {
-    import(`../../../../static/assets/images/obras/${userid}`).then(image => {
-      setimageImported(image.default)
-    })
+    import(`../../../../static/assets/images/obras/${userid}`)
+      .then(image => {
+        setimageImported(image.default)
+      })
+      .catch(() => {
+        setimageImported(null)
+      })
   }
 
   return (
