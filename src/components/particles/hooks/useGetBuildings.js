@@ -11,7 +11,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$856,360.75",
       image: "PMS-OP-044-22_1.png",
       image_2: "PMS-OP-044-22_2.png",
-      status: 1,
+      tipo_obra: "Sem\u00e1forizaci\u00f3n",
+      status: 2,
     },
     {
       id: "c91f6d6c-9fc5-11ee-9703-06144ff2b5af",
@@ -23,7 +24,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$246,987.27",
       image: "PMS-OP-REVUPE-046-22_1.png",
       image_2: "PMS-OP-REVUPE-046-22_2.png",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 2,
     },
     {
       id: "c91f6f70-9fc5-11ee-9703-06144ff2b5af",
@@ -35,7 +37,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,307,222.05",
       image: "PMS-OP_REVUPE-47-22_1.png",
       image_2: "PMS-OP_REVUPE-47-22_2.png",
-      status: 2,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 3,
     },
     {
       id: "c91f7053-9fc5-11ee-9703-06144ff2b5af",
@@ -47,7 +50,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,027,447.69",
       image: "",
       image_2: "",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 1,
     },
     {
       id: "c91f7125-9fc5-11ee-9703-06144ff2b5af",
@@ -59,7 +63,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$647,437.26",
       image: "PMS-OP-REVUPE-049-22_1.png",
       image_2: "PMS-OP-REVUPE-049-22_2.png",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 1,
     },
     {
       id: "c91f71f0-9fc5-11ee-9703-06144ff2b5af",
@@ -71,6 +76,7 @@ export const useGetBuildings = () => {
       importe_contrato: "$3,011,309.05",
       image: "PMS-OP-FISM-052-22_1.png",
       image_2: "PMS-OP-FISM-052-22_2.png",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 3,
     },
     {
@@ -83,7 +89,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,508,420.11",
       image: "PMS-OP-FISM-053-22_1.png",
       image_2: "PMS-OP-FISM-053-22_2.png",
-      status: 2,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 1,
     },
     {
       id: "c91f738b-9fc5-11ee-9703-06144ff2b5af",
@@ -95,7 +102,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,592,666.49",
       image: "PMS-OP-FISM-054-22_1.png",
       image_2: "PMS-OP-FISM-054-22_2.png",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 1,
     },
     {
       id: "c91f7454-9fc5-11ee-9703-06144ff2b5af",
@@ -107,7 +115,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$2,204,076.03",
       image: "PMS-OP-FISM-062-22_1.png",
       image_2: "PMS-OP-FISM-062-22_2.png",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 2,
     },
     {
       id: "c91f751d-9fc5-11ee-9703-06144ff2b5af",
@@ -119,6 +128,7 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,502,910.76",
       image: "PMS-OP-FISM-063-22_1.png",
       image_2: "PMS-OP-FISM-063-22_2.png",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 3,
     },
     {
@@ -131,7 +141,8 @@ export const useGetBuildings = () => {
       importe_contrato: "2,688,019.94",
       image: "PMS-OP-FISM-064-22_1.png",
       image_2: "PMS-OP-FISM-064-22_2.png",
-      status: 1,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 3,
     },
     {
       id: "c91f76bc-9fc5-11ee-9703-06144ff2b5af",
@@ -143,7 +154,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$545,061.04",
       image: "PMS-OP-FISM-065-22_1.png",
       image_2: "PMS-OP-FISM-065-22_2.png",
-      status: 2,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 1,
     },
     {
       id: "c91f7a1a-9fc5-11ee-9703-06144ff2b5af",
@@ -155,7 +167,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,464,709.94",
       image: "PMS-OP-FISM-066-22_1.png",
       image_2: "PMS-OP-FISM-066-22_2.png",
-      status: 1,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 3,
     },
     {
       id: "c91f7aa8-9fc5-11ee-9703-06144ff2b5af",
@@ -167,6 +180,7 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,311,541.12",
       image: "",
       image_2: "",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 1,
     },
     {
@@ -179,7 +193,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$5,050,926.69",
       image: "PMS-OP-FISM-075_22.1.png",
       image_2: "PMS-OP-FISM-075_22.2.png",
-      status: 3,
+      tipo_obra: "Obra civil",
+      status: 2,
     },
     {
       id: "c91f7e63-9fc5-11ee-9703-06144ff2b5af",
@@ -191,7 +206,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$4,520,852.25",
       image: "PMS-OP-FISM-076-22_1.png",
       image_2: "PMS-OP-FISM-076-22_2.png",
-      status: 2,
+      tipo_obra: "Obra civil",
+      status: 1,
     },
     {
       id: "c91f81b7-9fc5-11ee-9703-06144ff2b5af",
@@ -203,7 +219,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$832,306.38",
       image: "",
       image_2: "",
-      status: 2,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 3,
     },
     {
       id: "c91f8240-9fc5-11ee-9703-06144ff2b5af",
@@ -215,6 +232,7 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,349,236.17",
       image: "",
       image_2: "",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 1,
     },
     {
@@ -225,8 +243,9 @@ export const useGetBuildings = () => {
       contratista: "Constructora Salas L\u00f3pez S.A. de C.V.",
       amount: "$4,574,812.54",
       importe_contrato: "$4,574,812.54",
-      image: "PMS-OP-FISM-091_22.1.png",
-      image_2: "PMS-OP-FISM-091_22.2.png",
+      image: "PMS-OP-FISM-091_22.1",
+      image_2: "PMS-OP-FISM-091_22.2",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 3,
     },
     {
@@ -239,7 +258,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$2,896,412.36",
       image: "PMS-OP-FISM-100-22_1.png",
       image_2: "PMS-OP-FISM-100-22_2.png",
-      status: 3,
+      tipo_obra: "Pavimentaci\u00f3n",
+      status: 2,
     },
     {
       id: "c91f8aa7-9fc5-11ee-9703-06144ff2b5af",
@@ -251,6 +271,7 @@ export const useGetBuildings = () => {
       importe_contrato: "$1,081,162.61",
       image: "PMS-OP-FISM-102-22_1.png",
       image_2: "PMS-OP-FISM-102-22_2.png",
+      tipo_obra: "Pavimentaci\u00f3n",
       status: 3,
     },
     {
@@ -263,7 +284,8 @@ export const useGetBuildings = () => {
       importe_contrato: "$12,735,602.25",
       image: "PMS-OP-FISM-104-22_1.png",
       image_2: "PMS-OP-FISM-104-22_2.png",
-      status: 3,
+      tipo_obra: "Obra civil",
+      status: 2,
     },
   ]
 
