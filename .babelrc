@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    [
+      "transform-react-remove-prop-types",
+      {
+        "ignoreFilenames": ["node_modules"]
+      }
+    ]
+  ],
+  "presets": [
+    [
+      "babel-preset-gatsby",
+      {
+        "targets": {
+          "browsers": [">0.25%", "not dead"]
+        }
+      }
+    ]
+  ]
+}

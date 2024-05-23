@@ -1,0 +1,25 @@
+
+$FONT_PATH: "/assets/fonts";
+
+@mixin processFontFace($family, $style, $weight, $planeURL) {
+  @font-face {
+    font-family: $family;
+    font-style: $style;
+    font-weight: $weight;
+    font-display: swap;
+    src: url($planeURL + ".eot");
+    src: url($planeURL + ".eot?#iefix") format("embedded-opentype"), url($planeURL + ".woff2") format("woff2"), url($planeURL + ".woff") format("woff"), url($planeURL + ".ttf") format("truetype");
+  }
+}
+
+// Roboto
+@include processFontFace("Roboto", normal, 300, $FONT_PATH + "/Roboto/Roboto-Light");
+@include processFontFace("Roboto", italic, 300, $FONT_PATH + "/Roboto/Roboto-LightItalic");
+@include processFontFace("Roboto", normal, 400, $FONT_PATH + "/Roboto/Roboto-Regular");
+@include processFontFace("Roboto", italic, 400, $FONT_PATH + "/Roboto/Roboto-Italic");
+@include processFontFace("Roboto", normal, 500, $FONT_PATH + "/Roboto/Roboto-Medium");
+@include processFontFace("Roboto", italic, 500, $FONT_PATH + "/Roboto/Roboto-MediumItalic");
+@include processFontFace("Roboto", normal, 700, $FONT_PATH + "/Roboto/Roboto-Bold");
+@include processFontFace("Roboto", italic, 700, $FONT_PATH + "/Roboto/Roboto-BoldItalic");
+@include processFontFace("Roboto", normal, 900, $FONT_PATH + "/Roboto/Roboto-Black");
+@include processFontFace("Roboto", italic, 900, $FONT_PATH + "/Roboto/Roboto-BlackItalic");
