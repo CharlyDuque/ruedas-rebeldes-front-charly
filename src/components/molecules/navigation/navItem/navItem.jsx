@@ -7,15 +7,28 @@ import { Link } from "gatsby"
 const componentID = `m-nave-element`
 
 const NavItem = ({ children, className, iconName, onClick, url, hiddenMobile }) => {
-  return (
-    <Link to={url}>
-      <StyledNavItem className={`${className} ${componentID}`} onClick={onClick} hiddenMobile={hiddenMobile}>
-        {iconName && <ProjectIcon id={iconName} />}
-        {children}
-      </StyledNavItem>
-    </Link>
-  )
-}
+  const isExternal = url && (url.startsWith("http://") || url.startsWith("https://"));
+
+  if (isExternal) {
+    return (
+      <a href={url} target="_blank" rel="noopener noreferrer">
+        <StyledNavItem className={`${className} ${componentID}`} onClick={onClick} hiddenMobile={hiddenMobile}>
+          {iconName && <ProjectIcon id={iconName} />}
+          {children}
+        </StyledNavItem>
+      </a>
+    );
+  } else {
+    return (
+      <Link to={url}>
+        <StyledNavItem className={`${className} ${componentID}`} onClick={onClick} hiddenMobile={hiddenMobile}>
+          {iconName && <ProjectIcon id={iconName} />}
+          {children}
+        </StyledNavItem>
+      </Link>
+    );
+  }
+};
 
 NavItem.propTypes = {
   className: string,
