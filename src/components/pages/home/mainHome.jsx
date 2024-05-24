@@ -15,7 +15,7 @@ const MainHome = ({ buildings }) => {
       <Container>
         <Row>
           <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>
-            <Hero srcImg={logoMonitor} title="Que no te atropelle la corrupción" detail="Monitor de Movilidad Saltillo es una herramienta de Ruedas Rebeldes, con apoyo del Border Hub, para investigar posibles hechos de corrupción en las obras públicas enfocadas en la movilidad, porque las decisiones políticas y financieras impactan en la seguridad de las personas en las calles dos" />
+            <Hero srcImg={logoMonitor} title="Que no te atropelle la corrupción" detail="Investigamos posibles hechos de corrupción en las obras públicas enfocadas en movilidad. Porque las decisiones políticas y financieras impactan en la seguridad para caminar, andar en bici e, incluso, conducir un auto por las calles. " />
           </Col>
         </Row>
         <Row>

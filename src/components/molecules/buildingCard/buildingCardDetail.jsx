@@ -8,12 +8,13 @@ import TextButton from "../../atoms/buttons/textButton"
 
 const componentId = `m-building-card-detail`
 
+
 const BuildingCardDetail = ({ className, statusText, description, contractor, amount, status, fecha }) => {
+
   const [detailPinColor, setDetailPinColor] = useState(vars.brightGreen)
 
   useEffect(() => {
     if (!status) return
-
     switch (status) {
       case 1:
         setDetailPinColor(vars.brightGreen)
@@ -53,6 +54,7 @@ const BuildingCardDetail = ({ className, statusText, description, contractor, am
         <DescItem>
           <span>{`Contratista:`}</span>
           <p>{contractor}</p>
+
         </DescItem>
         <DescItem>
           <span>{`Importe a pagar:`}</span>
@@ -68,6 +70,7 @@ const BuildingCardDetail = ({ className, statusText, description, contractor, am
     </StyledBuildingCardDetail>
   )
 }
+
 
 BuildingCardDetail.propTypes = {}
 

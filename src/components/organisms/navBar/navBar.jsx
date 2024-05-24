@@ -22,11 +22,11 @@ const NavBar = props => {
           <NavItem url={`/`} iconName="apoya">
             NEWSLETTER
           </NavItem>
-          <NavItem url={`/`} iconName="apoya">
+          <NavItem url={`/https://www.instagram.com/p/CrLjF-nN_C1/`} iconName="apoya">
             TIENDA
           </NavItem>
-          <NavItem url={`/`} iconName="apoya">
-            APOYA
+          <NavItem url={`/https://www.ruedasrebeldes.com/quienes-somos/`} iconName="apoya">
+            Quiénes somos
           </NavItem>
         </ItemsWrapper>
       </Navigation>
