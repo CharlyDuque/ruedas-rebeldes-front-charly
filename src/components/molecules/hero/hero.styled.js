@@ -1,13 +1,12 @@
 import styled from "styled-components"
 import { deviceSizes } from "../../particles/mediaQueries"
-import bgheader from "../../../../public/assets/images/common/m_500_3.png"
+/* import bgheader from "../../../../public/assets/images/common/m_500_3.png" */
 export const StyledHero = styled.div`
   margin-top: 50px;
   padding: 5px;
   width: 100%;
   height: 100%;
   display: flex;
-  background-image: url(${bgheader});
   font-size: 50px;
   color:white;
   .m-hero__img {
