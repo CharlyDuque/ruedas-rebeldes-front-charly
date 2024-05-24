@@ -8,7 +8,7 @@ export const StyledHero = styled.div`
   height: 100%;
   display: flex;
   font-size: 50px;
-  color:white;
+  color:black;
   .m-hero__img {
     padding-right: 10px;
     width: 250px;

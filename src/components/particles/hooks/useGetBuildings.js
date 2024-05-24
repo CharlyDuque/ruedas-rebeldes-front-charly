@@ -12,7 +12,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-044-22_1.png",
       image_2: "PMS-OP-044-22_2.png",
       tipo_obra: "Sem\u00e1forizaci\u00f3n",
-      status: 2,
+      status: 1,
     },
     {
       id: "c91f6d6c-9fc5-11ee-9703-06144ff2b5af",
@@ -25,7 +25,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-REVUPE-046-22_1.png",
       image_2: "PMS-OP-REVUPE-046-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 2,
+      status: 1,
     },
     {
       id: "c91f6f70-9fc5-11ee-9703-06144ff2b5af",
@@ -38,7 +38,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP_REVUPE-47-22_1.png",
       image_2: "PMS-OP_REVUPE-47-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f7053-9fc5-11ee-9703-06144ff2b5af",
@@ -77,7 +77,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-052-22_1.png",
       image_2: "PMS-OP-FISM-052-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f72c1-9fc5-11ee-9703-06144ff2b5af",
@@ -116,7 +116,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-062-22_1.png",
       image_2: "PMS-OP-FISM-062-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 2,
+      status: 1,
     },
     {
       id: "c91f751d-9fc5-11ee-9703-06144ff2b5af",
@@ -129,7 +129,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-063-22_1.png",
       image_2: "PMS-OP-FISM-063-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f75fe-9fc5-11ee-9703-06144ff2b5af",
@@ -142,7 +142,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-064-22_1.png",
       image_2: "PMS-OP-FISM-064-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f76bc-9fc5-11ee-9703-06144ff2b5af",
@@ -168,7 +168,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-066-22_1.png",
       image_2: "PMS-OP-FISM-066-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f7aa8-9fc5-11ee-9703-06144ff2b5af",
@@ -221,7 +221,7 @@ export const useGetBuildings = () => {
       image: "",
       image_2: "",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f8240-9fc5-11ee-9703-06144ff2b5af",
@@ -247,7 +247,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-091_22.1",
       image_2: "PMS-OP-FISM-091_22.2",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f85f8-9fc5-11ee-9703-06144ff2b5af",
@@ -260,7 +260,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-100-22_1.png",
       image_2: "PMS-OP-FISM-100-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 2,
+      status: 1,
     },
     {
       id: "c91f8aa7-9fc5-11ee-9703-06144ff2b5af",
@@ -273,7 +273,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-102-22_1.png",
       image_2: "PMS-OP-FISM-102-22_2.png",
       tipo_obra: "Pavimentaci\u00f3n",
-      status: 3,
+      status: 1,
     },
     {
       id: "c91f9077-9fc5-11ee-9703-06144ff2b5af",
@@ -286,7 +286,7 @@ export const useGetBuildings = () => {
       image: "PMS-OP-FISM-104-22_1.png",
       image_2: "PMS-OP-FISM-104-22_2.png",
       tipo_obra: "Obra civil",
-      status: 2,
+      status: 1,
     },
   ]
 
