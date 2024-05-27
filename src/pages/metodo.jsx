@@ -8,8 +8,8 @@ import {
   PinGreen,
   PinYellow,
   PinRed
-} from "../pages/examplepage"
-const ExamplePage = () => {
+} from "../pages/metodologiaSyled"
+const Metodo = () => {
   return (
     <StyledPage>
       <StyledTitle>Metodología</StyledTitle>
@@ -55,4 +55,4 @@ const ExamplePage = () => {
   )
 }
 
-export default ExamplePage
+export default Metodo

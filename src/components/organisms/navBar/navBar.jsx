@@ -18,7 +18,7 @@ const NavBar = props => {
             NOTICIAS
           </NavItem>
           <NavItem iconName="apoya">
-            <Link to="/examplePage/">Metodologia</Link>
+            <Link to="/metodo/">Metodologia</Link>
           </NavItem>
           <NavItem url={`/newsletter`} iconName="apoya">
             NEWSLETTER
