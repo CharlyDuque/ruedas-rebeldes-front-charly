@@ -23,7 +23,7 @@ const ShopBanner = props => {
       <Image className={`${idComponent}-img-playeras`} sourceUrl={playeras} bgType="cover" />
       <TextShopContainer>
         <ShopTitle>Tienda</ShopTitle>
-        <ShopDesc>Lorem ipsum ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut</ShopDesc>
+        <ShopDesc>Ruedas Rebeldes es un equipo de periodistas independientes. No recibimos publicidad gubernamental. Apóyanos a seguir rodando y hacer periodismo libre.</ShopDesc>
         <InstagramLink>
           <ProjectIcon id={`instagram`} fill={`#FF3B3B`} className={`insta-icon`} />
           @ruedasrebeldes

@@ -27,8 +27,12 @@ const MainHome = ({ buildings }) => {
           </StyledHeroBG>
           <Row>
             <Row>
-              <Col>
-                <h1 className="title-red">DA CLICK PARA SABER MAS</h1>
+              <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>
+                <h1 className="title-red">CLICK PARA SABER MAS</h1>
+                <p>Identifica cómo se gasta el dinero público para construir la movilidad urbana de Saltillo, a quién beneficia y qué medio de transporte fomenta.
+                  Monitor de Movilidad Saltillo es una herramienta de Ruedas Rebeldes, desarrollada con apoyo del Border Hub.
+                  Da clic en un pin y conoce todos los detalles de las obras que se han realizado en la ciudad.
+                </p>
               </Col>
             </Row>
             <Col xs={4} sm={8} md={10} lg={10} xl={10} offset={{ sm: 0, md: 1, lg: 1, xl: 1 }}>
