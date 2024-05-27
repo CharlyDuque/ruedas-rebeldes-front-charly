@@ -8,7 +8,7 @@ import {
   PinGreen,
   PinYellow,
   PinRed
-} from "../pages/metodologiaSyled"
+} from "../components/stylemetodo/metodologiaSyled"
 const Metodo = () => {
   return (
     <StyledPage>
