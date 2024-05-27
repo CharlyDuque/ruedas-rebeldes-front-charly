@@ -1,5 +1,5 @@
 import React from "react"
-import { StyledFooter, StyledRigthConteiner, StyledLeftConteiner, StyledContact, StyledSocialContainer } from "./footer.styles"
+import { StyledFooter, StyledCenterConteiner, StyledContact, StyledSocialContainer, StyleLowFooter } from "./footer.styles.js"
 import { Col, Container, Row } from "react-awesome-styled-grid"
 import Image from "../../atoms/media/image/image"
 import imgRuedas from "../../../../static/assets/images/common/Logo_Ruedas_Rebeldes2.png"
@@ -14,25 +14,34 @@ const Footer = ({ className }) => {
   return (
     <StyledFooter className={`${componentId} ${className}`}>
       <Container className={`${componentId}__container`}>
-        <Row>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <Image className={`${componentId}__img`} sourceUrl={imgRuedas} />
-          </Col>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <Image className={`${componentId}__img`} sourceUrl={imgBCJB} />
-          </Col>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <Image className={`${componentId}__img`} sourceUrl={imgUSAID} />
-          </Col>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <Image className={`${componentId}__img`} sourceUrl={imgICFJ} />
-          </Col>
-        </Row>
+        <StyledCenterConteiner>
+          <Row>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <a href="https://www.ruedasrebeldes.com/" target="_blank" rel="norefferer">
+                <Image className={`${componentId}__img`} sourceUrl={imgRuedas} />
+              </a>
+            </Col>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <a href="https://www.borderhub.org/" target="_blank" rel="norefferer">
+                <Image className={`${componentId}__img`} sourceUrl={imgBCJB} />
+              </a>
+            </Col>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <a href="https://www.usaid.gov/" target="_blank" rel="norefferer">
+                <Image className={`${componentId}__img`} sourceUrl={imgUSAID} />
+              </a>
+            </Col>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <a href="https://www.icfj.org/" target="_blank" rel="norefferer">
+                <Image className={`${componentId}__img`} sourceUrl={imgICFJ} />
+              </a>
+            </Col>
+          </Row>
+        </StyledCenterConteiner>
         <Row>
           <Col xs={2} sm={4} md={5} lg={5} xl={5}>
             <StyledContact>
               <p>contacto@ruedasrebeldes.com Ruedas Rebeldes. Periodismo en bicicleta. Saltillo, Coahuila. MX</p>
-
             </StyledContact>
           </Col>
           <Col xs={2} sm={4} md={5} lg={5} xl={5}>
@@ -52,11 +61,10 @@ const Footer = ({ className }) => {
             </StyledSocialContainer>
           </Col>
         </Row>
-        <Container>
-          <p>Monitor de movilidad Saltillo es un proyecto desarrollado con el apoyo del Hub de Periodismo de Investigación de la Frontera Norte (Border Hub), el centro internacional para Periodistas (ICFJ) y la Agencia Internacional para el Desarrollo de Estados Unidos(USAID)</p>
-
-        </Container>
       </Container>
+      <StyleLowFooter>
+        <p>Monitor de movilidad Saltillo es un proyecto desarrollado con el apoyo del Hub de Periodismo de Investigación de la Frontera Norte (Border Hub), el centro internacional para Periodistas (ICFJ) y la Agencia Internacional para el Desarrollo de Estados Unidos(USAID)</p>
+      </StyleLowFooter>
     </StyledFooter>
   )
 }

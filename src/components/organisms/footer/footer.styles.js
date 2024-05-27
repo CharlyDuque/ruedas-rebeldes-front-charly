@@ -5,16 +5,26 @@ export const StyledFooter = styled.footer`
   min-height: 100px;
 `
 
-export const StyledRigthConteiner = styled.div`
+export const StyledCenterConteiner = styled.div`
   display: flex;
-  flex-flow: column;
-  justify-content: flex-end;
-  .o-footer__img-bcjb {
+  justify-content: space-between;
+  align-self: flex-end;
+  flex-flow: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  
+  .o-footer__img {
     margin-bottom: 7px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  .a-icon-type {
+    width: 20px;
   }
 
   @media ${deviceSizes.sm} {
-    .o-footer__img-bcjb {
+    .o-footer__img {
       margin-bottom: 20px;
     }
   }
@@ -23,31 +33,7 @@ export const StyledRigthConteiner = styled.div`
   }
 
   @media ${deviceSizes.lg} {
-    .o-footer__img-bcjb {
-      height: 60px;
-    }
-  }
-
-  @media ${deviceSizes.xl} {
-  }
-`
-
-export const StyledLeftConteiner = styled.div`
-  .o-footer__img-ruedas {
-    margin-bottom: 7px;
-  }
-
-  @media ${deviceSizes.sm} {
-    .o-footer__img-ruedas {
-      margin-bottom: 20px;
-    }
-  }
-
-  @media ${deviceSizes.md} {
-  }
-
-  @media ${deviceSizes.lg} {
-    .o-footer__img-ruedas {
+    .o-footer__img {
       height: 60px;
     }
   }
@@ -80,6 +66,7 @@ export const StyledSocialContainer = styled.div`
   justify-content: space-between;
   align-self: flex-end;
   width: 120px;
+  margin: 1em 2em;
   .a-icon-type {
     width: 20px;
   }
@@ -97,5 +84,15 @@ export const StyledSocialContainer = styled.div`
     .a-icon-type {
       width: 30px;
     }
+  }
+
+`
+export const StyleLowFooter = styled.div`
+display: flex;
+background-color: grey;
+color: black;
+  p{
+    margin: 2em 40px;
+    height: 6em;
   }
 `
