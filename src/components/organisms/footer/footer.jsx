@@ -62,8 +62,11 @@ const Footer = ({ className }) => {
           </Col>
         </Row>
       </Container>
-      <StyleLowFooter>
-        <p>Monitor de movilidad Saltillo es un proyecto desarrollado con el apoyo del Hub de Periodismo de Investigación de la Frontera Norte (Border Hub), el centro internacional para Periodistas (ICFJ) y la Agencia Internacional para el Desarrollo de Estados Unidos(USAID)</p>
+      <StyleLowFooter >
+        <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>
+
+          <p>Monitor de movilidad Saltillo es un proyecto desarrollado con el apoyo del Hub de Periodismo de Investigación de la Frontera Norte (Border Hub), el centro internacional para Periodistas (ICFJ) y la Agencia Internacional para el Desarrollo de Estados Unidos(USAID)</p>
+        </Col>
       </StyleLowFooter>
     </StyledFooter>
   )
