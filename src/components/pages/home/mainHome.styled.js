@@ -9,10 +9,13 @@ export const StyledHomeMain = styled.main`
     color: white;
   }
     h1.title-red {
-    color: red;
+    color: black;
     text-align: center;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
+  }
+  p.click{
+    margin: 0.5em 0;
   }
 
 `

@@ -1,5 +1,5 @@
 const globalVars = {
-  roboto: `"Roboto", sans-serif`,
+  montserrat: `"Montserrat", VariableFont`,
   remBaseline: "16px",
   // Font weights
   fontThin: 100,
@@ -41,7 +41,7 @@ const globalVars = {
 const themeDefault = {
   themeName: "Default Theme",
   // Font
-  font: globalVars.roboto,
+  font: globalVars.Montserrat,
   palette: {
     // BG Color
     bgColor: globalVars.wildSand,
