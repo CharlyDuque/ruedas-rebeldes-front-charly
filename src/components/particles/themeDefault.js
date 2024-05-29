@@ -1,5 +1,5 @@
 const globalVars = {
-  montserrat: `"Montserrat", VariableFont`,
+  montserrat: `"Montserrat", sans-serif`,
   remBaseline: "16px",
   // Font weights
   fontThin: 100,

@@ -12,6 +12,7 @@ const GlobalStyles = createGlobalStyle`
 		background-color: ${props => props.theme.palette.bgColor};
 		color: ${props => props.theme.palette.textColor};
 		font-family: ${props => props.theme.font};
+		font-family: "Montserrat", sans-serif;
 		font-size: 16px;
 		font-weight: ${props => props.theme.vars.fontRegular};
 		&.on__hamburger{
