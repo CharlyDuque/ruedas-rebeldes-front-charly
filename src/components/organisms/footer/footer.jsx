@@ -16,51 +16,53 @@ const Footer = ({ className }) => {
       <Container className={`${componentId}__container`}>
         <StyledCenterConteiner>
           <Row>
-            <Col className={`${componentId}__icon`} xs={5} sm={5} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.ruedasrebeldes.com/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgRuedas} />
               </a>
             </Col>
-            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.borderhub.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgBCJB} />
               </a>
             </Col>
-            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.usaid.gov/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgUSAID} />
               </a>
             </Col>
-            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.icfj.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgICFJ} />
               </a>
             </Col>
           </Row>
         </StyledCenterConteiner>
-        <Row>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <StyledContact>
-              <p>contacto@ruedasrebeldes.com Ruedas Rebeldes. Periodismo en bicicleta. Saltillo, Coahuila. MX</p>
-            </StyledContact>
-          </Col>
-          <Col xs={2} sm={4} md={5} lg={5} xl={5}>
-            <StyledSocialContainer>
-              <a href="https://www.facebook.com/profile.php?id=100083014976811" target="_blank" rel="norefferer">
-                <ProjectIcon id="fb" />
-              </a>
-              <a href="https://www.tiktok.com/@ruedasrebeldes" target="_blank" rel="norefferer">
-                <ProjectIcon id="tiktok" />
-              </a>
-              <a href="https://twitter.com/ruedasrebeldes" target="_blank" rel="norefferer">
-                <ProjectIcon id="twitter" />
-              </a>
-              <a href="https://www.youtube.com/@ruedasrebeldes" target="_blank" rel="norefferer">
-                <ProjectIcon id="youtube" />
-              </a>
-            </StyledSocialContainer>
-          </Col>
-        </Row>
+        <socialBlock >
+          <Row className={`${componentId}__socialRow`}>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <StyledContact >
+                <p>contacto@ruedasrebeldes.com Ruedas Rebeldes. Periodismo en bicicleta. Saltillo, Coahuila. MX</p>
+              </StyledContact>
+            </Col>
+            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+              <StyledSocialContainer>
+                <a href="https://www.facebook.com/profile.php?id=100083014976811" target="_blank" rel="norefferer">
+                  <ProjectIcon id="fb" />
+                </a>
+                <a href="https://www.tiktok.com/@ruedasrebeldes" target="_blank" rel="norefferer">
+                  <ProjectIcon id="tiktok" />
+                </a>
+                <a href="https://twitter.com/ruedasrebeldes" target="_blank" rel="norefferer">
+                  <ProjectIcon id="twitter" />
+                </a>
+                <a href="https://www.youtube.com/@ruedasrebeldes" target="_blank" rel="norefferer">
+                  <ProjectIcon id="youtube" />
+                </a>
+              </StyledSocialContainer>
+            </Col>
+          </Row>
+        </socialBlock>
       </Container>
       <StyleLowFooter >
         <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>

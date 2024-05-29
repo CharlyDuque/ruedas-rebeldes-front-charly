@@ -14,11 +14,12 @@ export const StyledCenterConteiner = styled.div`
   margin:2em 0;
   .o-footer__icon{
     flex: inherit;
+    height: 10em;
   }
   .o-footer__img {
     margin-bottom: 1em;
     width: 100%;
-    height: 5em;
+    height: 10em;
     object-fit: contain;
     flex-wrap: nowrap;
   }
@@ -91,7 +92,13 @@ export const StyledSocialContainer = styled.div`
       width: 30px;
     }
   }
-
+`
+export const socialBlock = styled.div`
+display: flex;
+margin:0 0;
+.__socialRow{
+  margin:0 0;
+}
 `
 export const StyleLowFooter = styled.div`
 display: flex;
