@@ -7,29 +7,35 @@ export const StyledFooter = styled.footer`
 
 export const StyledCenterConteiner = styled.div`
   display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
   flex-flow: row;
   align-items: center;
   flex-wrap: nowrap;
-  
+  align-items:stretch;
+  margin:2em 0;
+  .o-footer__icon{
+    flex: inherit;
+  }
   .o-footer__img {
-    margin-bottom: 7px;
+    margin-bottom: 1em;
     width: 100%;
-    height: auto;
+    height: 5em;
     object-fit: contain;
+    flex-wrap: nowrap;
   }
   .a-icon-type {
     width: 20px;
   }
 
   @media ${deviceSizes.sm} {
+    align-items:stretch;
     .o-footer__img {
-      margin-bottom: 20px;
+      margin-bottom: .5em;
     }
   }
 
   @media ${deviceSizes.md} {
+    align-items:stretch;
+    flex-flow:;
   }
 
   @media ${deviceSizes.lg} {
@@ -66,7 +72,7 @@ export const StyledSocialContainer = styled.div`
   justify-content: space-between;
   align-self: flex-end;
   width: 120px;
-  margin: 1em 2em;
+  margin: 0 auto;
   .a-icon-type {
     width: 20px;
   }

@@ -16,22 +16,22 @@ const Footer = ({ className }) => {
       <Container className={`${componentId}__container`}>
         <StyledCenterConteiner>
           <Row>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={5} sm={5} md={5} lg={5} xl={5}>
               <a href="https://www.ruedasrebeldes.com/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgRuedas} />
               </a>
             </Col>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.borderhub.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgBCJB} />
               </a>
             </Col>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.usaid.gov/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgUSAID} />
               </a>
             </Col>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={2} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.icfj.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgICFJ} />
               </a>
