@@ -6,7 +6,8 @@ export const StyledPage = styled.div`
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat", sans-serif;
+  text-transform: math-auto;
 `;
 
 // Title styling
@@ -15,6 +16,7 @@ export const StyledTitle = styled.h1`
   color: #333;
   margin-bottom: 0.5em;
   text-align: center;
+  text-transform: math-auto;
 `;
 
 // Subtitle styling
@@ -23,8 +25,16 @@ export const StyledSubtitle = styled.h2`
   color: #555;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
+  text-transform: math-auto;
 `;
-
+// h3 styling
+export const Styledh3 = styled.h3`
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  text-transform: math-auto;
+`;
 // Paragraph styling
 export const StyledParagraph = styled.p`
   font-size: 1em;
@@ -50,7 +60,7 @@ export const PinGreen = styled.span`
 `;
 
 export const PinYellow = styled.span`
-  color: yellow;
+  color: #e9cf03;
   font-weight: bold;
 `;
 
