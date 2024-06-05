@@ -36,7 +36,7 @@ export const StyledCenterConteiner = styled.div`
 
   @media ${deviceSizes.md} {
     align-items:stretch;
-    flex-flow:;
+    
   }
 
   @media ${deviceSizes.lg} {

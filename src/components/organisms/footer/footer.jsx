@@ -4,7 +4,6 @@ import { Col, Container, Row } from "react-awesome-styled-grid"
 import Image from "../../atoms/media/image/image"
 import imgRuedas from "../../../../static/assets/images/common/Logo_Ruedas_Rebeldes2.png"
 import imgICFJ from "../../../../static/assets/images/common/Logo_ICFJ.png"
-import imgUSAID from "../../../../static/assets/images/common/Logo_USAID.png"
 import imgBCJB from "../../../../static/assets/images/common/Logo_Border_Hub_2.png"
 import ProjectIcon from "../../atoms/icons/icon/projectIcon/projectIcon"
 
@@ -27,9 +26,7 @@ const Footer = ({ className }) => {
               </a>
             </Col>
             <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
-              <a href="https://www.usaid.gov/" target="_blank" rel="norefferer">
-                <Image className={`${componentId}__img`} sourceUrl={imgUSAID} />
-              </a>
+
             </Col>
             <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
               <a href="https://www.icfj.org/" target="_blank" rel="norefferer">
