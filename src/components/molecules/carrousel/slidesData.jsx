@@ -1,9 +1,9 @@
 // slidesData.jsx
-import imagen1 from '../../../../public/assets/images/investigaciones/Nota-1-Portada-1000x680-1.png';
-import imagen2 from '../../../../public/assets/images/investigaciones/Nota-2-Portada-1000x680-1.png';
-import imagen3 from '../../../../public/assets/images/investigaciones/Nota-3-Portada-1000x680-1.png';
-import imagen4 from '../../../../public/assets/images/investigaciones/Nota-4-Portada-1000x680-1.png';
-import portada from '../../../../public/assets/images/investigaciones/Portada-nota-5-1000x680-1.png';
+import imagen1 from '../../../../static/assets/images/investigaciones/Nota-1-Portada-1000x680-1.png';
+import imagen2 from '../../../../static/assets/images/investigaciones/Nota-2-Portada-1000x680-1.png';
+import imagen3 from '../../../../static/assets/images/investigaciones/Nota-3-Portada-1000x680-1.png';
+import imagen4 from '../../../../static/assets/images/investigaciones/Nota-4-Portada-1000x680-1.png';
+import portada from '../../../../static/assets/images/investigaciones/Portada-nota-5-1000x680-1.png';
 const slides = [
   {
     srcImg: portada,
