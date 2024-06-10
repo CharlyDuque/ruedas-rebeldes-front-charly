@@ -17,12 +17,14 @@ const MainHome = ({ buildings }) => {
         <Container>
 
           <StyledHeroBG bgImage={bgheader}>
-            <Row>
-              <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>
-                <Hero srcImg={logoMonitor} title="-" detail="Investigamos posibles hechos de corrupción en las obras públicas enfocadas en movilidad. Porque las decisiones políticas y financieras impactan en la seguridad para caminar, andar en bici e, incluso, conducir un auto por las calles. " />
-              </Col>
-            </Row>
 
+            <Row xs={6} sm={6} md={6} lg={10} xl={10} >
+              <Col xs={0} sm={0} md={1} lg={1} xl={0} ></Col>
+              <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 1, lg: 2, xl: 2 }}>
+                <Hero srcImg={logoMonitor} title="" detail="Investigamos posibles hechos de corrupción en las obras públicas enfocadas en movilidad. Porque las decisiones políticas y financieras impactan en la seguridad para caminar, andar en bici e, incluso, conducir un auto por las calles. " />
+              </Col>
+              <Col xs={0} sm={0} md={1} lg={1} xl={0} ></Col>
+            </Row>
           </StyledHeroBG>
           <Row>
             <Row>
