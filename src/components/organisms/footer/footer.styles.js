@@ -50,8 +50,9 @@ export const StyledCenterConteiner = styled.div`
 `
 
 export const StyledContact = styled.div`
-  font-size: 9px;
+  font-size: 15px;
   font-weight: ${props => props.theme.vars.fontBold};
+  margin-bottom: 2em;
 
   @media ${deviceSizes.sm} {
     font-size: 16px;
@@ -103,7 +104,7 @@ margin:0 0;
 export const StyleLowFooter = styled.div`
 display: flex;
 background-color: grey;
-color: black;
+color: white;
   p{
     margin: 2em 40px;
     height: 6em;

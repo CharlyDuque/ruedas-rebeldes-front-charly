@@ -6,9 +6,12 @@ import logoMonitor from "../../../../static/assets/images/common/logoMonitor_bla
 import bgheader from "../../../../public/assets/images/common/m_2000_3.png"
 import MapContainer from "../../organisms/map/mapContainer"
 import ShopBanner from "../../organisms/shopBanner/shopBanner"
+import CarouselComponent from '../../molecules/carrousel/carrousel';
+import slides from '../../molecules/carrousel/slidesData';
+
 
 const componentId = `p-home-main`
-const mapClass = `m-map`
+//const mapClass = `m-map`
 
 const MainHome = ({ buildings }) => {
   return (
@@ -42,9 +45,11 @@ const MainHome = ({ buildings }) => {
               <MapContainer buildings={buildings} />
             </Col>
           </Row>
-          <Row>
+          <Row justify="center">
             <Col xs={4} sm={8} md={10} lg={10} xl={10} offset={{ sm: 0, md: 1, lg: 1, xl: 1 }}>
               <h1 className="title-red"> investigaciones</h1>
+
+              <CarouselComponent slides={slides} />
             </Col>
             <ShopBanner />
           </Row>

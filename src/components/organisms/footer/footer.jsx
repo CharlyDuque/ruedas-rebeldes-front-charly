@@ -15,20 +15,18 @@ const Footer = ({ className }) => {
       <Container className={`${componentId}__container`}>
         <StyledCenterConteiner>
           <Row>
-            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={10} sm={5} md={5} lg={10} xl={10}>
               <a href="https://www.ruedasrebeldes.com/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgRuedas} />
               </a>
             </Col>
-            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={10} sm={5} md={5} lg={10} xl={10}>
               <a href="https://www.borderhub.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgBCJB} />
               </a>
             </Col>
-            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
 
-            </Col>
-            <Col className={`${componentId}__icon`} xs={5} sm={4} md={5} lg={5} xl={5}>
+            <Col className={`${componentId}__icon`} xs={10} sm={5} md={5} lg={10} xl={10}>
               <a href="https://www.icfj.org/" target="_blank" rel="norefferer">
                 <Image className={`${componentId}__img`} sourceUrl={imgICFJ} />
               </a>
@@ -59,7 +57,9 @@ const Footer = ({ className }) => {
               </StyledSocialContainer>
             </Col>
           </Row>
+
         </socialBlock>
+        <Row></Row>
       </Container>
       <StyleLowFooter >
         <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 3, lg: 3, xl: 3 }}>
