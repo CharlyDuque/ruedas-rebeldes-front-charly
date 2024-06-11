@@ -9,32 +9,26 @@ export const StyledHero = styled.div`
   color:white;
   flex-wrap: wrap;
   justify-content: center;
-   @media ${deviceSizes.xs}{
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-     }
-  .m-hero{
-    height: 600px;
-    
-  }
+      @media (min-width: 1590px) {
+    flex-direction: row;
+  }  
+
   .m-hero__img {
     padding-right: 2em;
-    width: 200px;
+    width: 300px;
     height: auto;
     max-height: 500px;
-    @media ${deviceSizes.sm} {
-    .m-hero__img {
-     max-height: 500px;
+     @media (min-width: 1590px) {
+      height: auto;
+      width: 400px;
+     }
+      @media ${deviceSizes.sm} {
+      .m-hero__img {
+      max-height: 500px;
+      }
     }
-  }
   }
 
-  @media ${deviceSizes.sm} {
-    .m-hero__img {
-      /* width: 10em; */
-    }
-  }
 `
 
 export const StyledDetail = styled.div`

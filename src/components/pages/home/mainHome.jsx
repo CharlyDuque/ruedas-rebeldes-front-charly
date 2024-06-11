@@ -23,11 +23,11 @@ const MainHome = ({ buildings }) => {
 
             <Row >
               <Col className={`${componentId}__wrapHeroL`} xs={1} sm={1} md={1} lg={1} xl={1} ></Col>
-              <Col className={`${componentId}__wrapHeroMain`} xs={4} sm={9} md={9} lg={10} xl={5} offset={{ sm: 0, md: 1, lg: 1, xl: 1 }}>
+              <Col className={`${componentId}__wrapHeroMain`} xs={4} sm={9} md={9} lg={8} xl={9} offset={{ sm: 0, md: 1, lg: 1, xl: 0 }}>
                 <Hero srcImg={logoMonitor} title="" detail="Investigamos posibles hechos de corrupción en las obras públicas de movilidad
  " />
               </Col>
-              <Col className={`${componentId}__wrapHeroL`} xs={1} sm={2} md={2} lg={4} xl={4} ></Col>
+              <Col className={`${componentId}__wrapHeroL`} xs={1} sm={2} md={2} lg={1} xl={1} ></Col>
             </Row>
           </StyledHeroBG>
           <Row>
