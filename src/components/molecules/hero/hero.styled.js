@@ -6,7 +6,7 @@ export const StyledHero = styled.div`
   width: 100%;
   height: 500px;
   display: flex;
-  color:white;  
+  color:white;
    @media ${deviceSizes.xs}{
       display: flex;
       flex-wrap: wrap;
@@ -20,7 +20,12 @@ export const StyledHero = styled.div`
     padding-right: 2em;
     width: 200px;
     height: auto;
-    
+    max-height: 500px;
+    @media ${deviceSizes.sm} {
+    .m-hero__img {
+     max-height: 500px;
+    }
+  }
   }
 
   @media ${deviceSizes.sm} {

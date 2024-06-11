@@ -41,7 +41,7 @@ export const StyledCenterConteiner = styled.div`
 
   @media ${deviceSizes.lg} {
     .o-footer__img {
-      height: 60px;
+      
     }
   }
 

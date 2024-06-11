@@ -28,7 +28,7 @@ export const StyledHeroBG = styled.main`
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-
+  max-height: 500px;
 `
 
 
