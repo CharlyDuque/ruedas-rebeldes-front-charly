@@ -30,3 +30,7 @@ export const FooterItemsContainer = styled.div`
     margin: 20px 0px;
   }
 `
+export const MapFooterItem = styled.div`
+flex-wrap: wrap;
+
+`

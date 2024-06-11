@@ -4,6 +4,7 @@ import { deviceSizes } from "../../particles/mediaQueries"
 export const StyledMapFooterItem = styled.div`
   
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   .m-map-footer-item-icon {
     background-color: ${props => props.theme.vars.white};

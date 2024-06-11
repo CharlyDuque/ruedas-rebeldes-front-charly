@@ -7,6 +7,8 @@ export const StyledHero = styled.div`
   height: 500px;
   display: flex;
   color:white;
+  flex-wrap: wrap;
+  justify-content: center;
    @media ${deviceSizes.xs}{
       display: flex;
       flex-wrap: wrap;
@@ -37,10 +39,12 @@ export const StyledHero = styled.div`
 
 export const StyledDetail = styled.div`
   padding-top: 25px;
-  margin: 10px;
+  margin: 1em;
+  font-weight: bold;
     @media ${deviceSizes.sm} {
     width:80%;
-    margin: auto;
+    margin: 0 auto;
+    font-weight: bolder;
   }
   
 
@@ -71,7 +75,7 @@ export const StyledTitle = styled.h2`
 
 export const StyledDetailText = styled.p`
   font-size: 25px;
-  font-weight: ${props => props.theme.vars.fontRegular};
+  font-weight:bold;
 
   @media ${deviceSizes.sm} {
     font-size: 30px;

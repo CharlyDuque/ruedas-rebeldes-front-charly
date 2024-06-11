@@ -17,9 +17,11 @@ export const StyledHomeMain = styled.main`
     text-align: center;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
+    text-transform: math-auto;
   }
   p.click{
     margin: 0.5em 0;
+    font-size: larger;
   }
 
 `
