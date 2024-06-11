@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import { deviceSizes } from "../../particles/mediaQueries"
 
 export const StyledHomeMain = styled.main`
   min-height: 100vh;
@@ -7,6 +7,10 @@ export const StyledHomeMain = styled.main`
   overflow: hidden;
   .p-home-main{
     color: white;
+  }
+  .__wrapHeroMain{
+    margin-left: 0;
+    
   }
     h1.title-red {
     color: black;

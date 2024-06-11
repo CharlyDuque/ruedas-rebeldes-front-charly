@@ -21,12 +21,12 @@ const MainHome = ({ buildings }) => {
 
           <StyledHeroBG bgImage={bgheader}>
 
-            <Row xs={6} sm={6} md={6} lg={10} xl={10} >
-              <Col xs={0} sm={0} md={1} lg={1} xl={0} ></Col>
-              <Col xs={4} sm={6} md={6} lg={6} xl={6} offset={{ sm: 1, md: 1, lg: 2, xl: 2 }}>
+            <Row >
+              <Col className={`${componentId}__wrapHeroL`} xs={1} sm={1} md={1} lg={1} xl={1} ></Col>
+              <Col className={`${componentId}__wrapHeroMain`} xs={4} sm={9} md={9} lg={10} xl={5} offset={{ sm: 0, md: 1, lg: 1, xl: 1 }}>
                 <Hero srcImg={logoMonitor} title="" detail="Investigamos posibles hechos de corrupción en las obras públicas enfocadas en movilidad. Porque las decisiones políticas y financieras impactan en la seguridad para caminar, andar en bici e, incluso, conducir un auto por las calles. " />
               </Col>
-              <Col xs={0} sm={0} md={1} lg={1} xl={0} ></Col>
+              <Col className={`${componentId}__wrapHeroL`} xs={1} sm={2} md={2} lg={4} xl={4} ></Col>
             </Row>
           </StyledHeroBG>
           <Row>

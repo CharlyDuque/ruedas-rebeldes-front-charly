@@ -4,14 +4,20 @@ export const StyledHero = styled.div`
   margin-top: 10px;
   padding: 5px;
   width: 100%;
-  height: 600px;
+  height: 500px;
   display: flex;
-  color:white;
+  color:white;  
+   @media ${deviceSizes.xs}{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+     }
   .m-hero{
     height: 600px;
+    
   }
   .m-hero__img {
-    padding-right: 10px;
+    padding-right: 2em;
     width: 200px;
     height: auto;
     
@@ -19,17 +25,20 @@ export const StyledHero = styled.div`
 
   @media ${deviceSizes.sm} {
     .m-hero__img {
-      width: 20%;
+      /* width: 10em; */
     }
   }
 `
 
 export const StyledDetail = styled.div`
   padding-top: 25px;
-
-  @media ${deviceSizes.sm} {
-    width: 80%;
+  margin: 10px;
+    @media ${deviceSizes.sm} {
+    width:80%;
+    margin: auto;
   }
+  
+
 `
 
 export const StyledTitle = styled.h2`
@@ -68,10 +77,10 @@ export const StyledDetailText = styled.p`
   }
 
   @media ${deviceSizes.lg} {
-    font-size: 40px;
+    font-size: 35px;
   }
 
   @media ${deviceSizes.xl} {
-    font-size: 40px;
+    font-size: 35px;
   }
 `

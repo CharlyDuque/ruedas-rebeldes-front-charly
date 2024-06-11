@@ -3,7 +3,7 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { StyledCarousel } from '../carrousel/carrousel.styled'
+import { StyledCarousel, StyledTitle } from '../carrousel/carrousel.styled'
 import Image from "../../atoms/media/image/image"
 const componentId = `carrouselStyled`
 const CarouselComponent = ({ slides }) => {
@@ -24,7 +24,7 @@ const CarouselComponent = ({ slides }) => {
         {slides.map((slide, index) => (
           <div key={index} onClick={() => window.open(slide.url, '_blank')}>
             <Image sourceUrl={slide.srcImg} className={`${componentId}__img`} />
-            <h2>{slide.title}</h2>
+            <StyledTitle>{slide.title.charAt(0).toUpperCase() + slide.title.slice(1).toLowerCase()}</StyledTitle>
             <p>{slide.detail}</p>
             {/*  <p className="legend">Nota {index + 1}</p> */}
           </div>

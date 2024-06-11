@@ -71,7 +71,7 @@ module.exports = {
     description: `Ruedas Rebeldes`,
     siteUrl: `${process.env.SITE_URL}`,
     url: `${process.env.SITE_URL}`,
-    image: `${process.env.SITE_URL}/assets/images/common/ruedas-site-img.png`,
+    image: `${process.env.SITE_URL}/assets/images/common/portada_monitor.png`,
     author: `@RuedasRebeldes`,
   },
   plugins: gatsbyPlugins,
