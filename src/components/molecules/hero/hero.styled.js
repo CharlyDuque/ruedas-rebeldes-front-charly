@@ -36,7 +36,7 @@ export const StyledDetail = styled.div`
   margin: 1em;
   font-weight: bold;
     @media ${deviceSizes.sm} {
-    width:80%;
+    width:70%;
     margin: 0 auto;
     font-weight: bolder;
   }
