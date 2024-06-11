@@ -113,15 +113,17 @@ export const ShopDesc = styled.p`
   margin-bottom: 5px;
 
   @media ${deviceSizes.sm} {
-    font-size: 25px;
+    font-size: 15px;
+
+    line-height: 1.5em;
   }
 
   @media ${deviceSizes.md} {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   @media ${deviceSizes.lg} {
-    font-size: 30px;
+    font-size: 20px;
   }
 `
 

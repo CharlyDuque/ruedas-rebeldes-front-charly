@@ -35,12 +35,12 @@ const Footer = ({ className }) => {
         </StyledCenterConteiner>
         <socialBlock >
           <Row className={`${componentId}__socialRow`}>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col xs={2} sm={3} md={5} lg={5} xl={5}>
               <StyledContact >
                 <p>contacto@ruedasrebeldes.com Ruedas Rebeldes. Periodismo en bicicleta. Saltillo, Coahuila. MX</p>
               </StyledContact>
             </Col>
-            <Col xs={2} sm={4} md={5} lg={5} xl={5}>
+            <Col xs={2} sm={5} md={7} lg={7} xl={7}>
               <StyledSocialContainer>
                 <a href="https://www.facebook.com/profile.php?id=100083014976811" target="_blank" rel="norefferer">
                   <ProjectIcon id="fb" />

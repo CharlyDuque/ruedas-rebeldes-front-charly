@@ -39,14 +39,6 @@ export const StyledCenterConteiner = styled.div`
     
   }
 
-  @media ${deviceSizes.lg} {
-    .o-footer__img {
-      
-    }
-  }
-
-  @media ${deviceSizes.xl} {
-  }
 `
 
 export const StyledContact = styled.div`
@@ -96,9 +88,9 @@ export const StyledSocialContainer = styled.div`
 `
 export const socialBlock = styled.div`
 display: flex;
-margin:0 0;
+margin: auto;
 .__socialRow{
-  margin:0 0;
+
 }
 `
 export const StyleLowFooter = styled.div`
